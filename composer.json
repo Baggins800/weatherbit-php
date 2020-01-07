@@ -2,8 +2,14 @@
     "name": "elytica/weatherbit",
     "description": "Weatherbit calls",
     "version" : "0.0.0",
+    "license": "GPL-3.0-or-later",
     "require": {
         "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeatherBit\\": "src/"
+        }
     },
     "authors": [
         {
