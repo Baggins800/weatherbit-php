@@ -1,4 +1,5 @@
 <?php
+namespace elytica;
 require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
