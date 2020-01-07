@@ -1,5 +1,7 @@
 # Weatherbit-php
-## installation
+## Features
+This package only supports hourly forecast using longitude and latitude.
+## Installation
 ```
 composer install elytica/weatherbit
 ```
