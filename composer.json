@@ -1,0 +1,13 @@
+{
+    "name": "elytica/weatherbit",
+    "description": "Weatherbit calls",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "Ruan Luies",
+            "email": "omega@live.co.za"
+        }
+    ]
+}
