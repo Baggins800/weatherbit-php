@@ -8,7 +8,6 @@ class WeatherBit {
   private $settings;
   private $client;
   public function __construct($settings) {
-    print_r($settings);
     $this->conf = parse_ini_file("weatherbit.conf");
     $this->client = new Client(['verify' => false]);
     $this->settings = $settings;
